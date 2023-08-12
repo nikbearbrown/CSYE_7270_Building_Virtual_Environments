@@ -1,115 +1,162 @@
-# Case Interview Preparation
+# CSYE 7270 Building Virtual Environments
 
-# Conversational Interviews
-This interview format aims to learn more about your background, interests, and future goals, while giving you an opportunity to understand our firm, Oliver Wyman. You can expect a dialogue about your achievements, experiences, interests, and career objectives. It's also a chance to inquire about Oliver Wyman.
+## Course Description
 
-# Case Interviews
-Case interviews are interactive sessions designed to evaluate your analytical thinking and problem-solving skills. You'll get an insight into the kind of problems we solve for our clients as many cases are based on real-world challenges.
+### Real-time Programming and Design in Interactive Media
 
-## 1. Role of The Case Interview
-Case interviews are utilized to understand your thought process and acquaint you with our work. They allow us to evaluate:
+This course delves deep into the realm of **real-time programming and design**, aiming to impart skills for crafting captivating interactive experiences and constructing immersive virtual environments. Rooted in practicality, students will acquire the know-how to develop interactive real-time applications across a spectrum of domains including, but not limited to:
 
-- Your ability to deconstruct complex problems
-- Your skills in data analysis and synthesis
-- Your out-of-the-box thinking
-- Your practical solutions to complex business problems
-- Your proficiency in asking relevant questions
-- Your communication skills
+- Virtual and Augmented Reality
+- Games
+- Data Visualization
+- Medicine
+- Industrial Design
+- Film
+- The burgeoning field of Generative AI in media.
 
-## 2. Case Interview Tips
+A pivotal component of the curriculum focuses on **real-time 3D rendering engines** and the intricate subsystems that breathe life into both 2D and 3D realms. Learners will gain insights into various facets:
 
-- View the case interviewer as your client. Collaborate with them to solve the problem.
-- Identify the issue: Understand the situation, ask clarifying questions, and paraphrase the situation.
-- Decompose the problem: Are there smaller sub-problems? Illustrate your thoughts, structure your thinking process, and ask for needed information.
-- Choose a strategy: Justify why it’s preferable. State your assumptions. Agree on essential concepts to delve deeper.
-- Investigate the problems: Incorporate and analyze data in your thought structure. If you require more data, ask for it.
-- Utilize numbers: Exhibit your quantitative skills and exercise caution with simple calculations.
-- Make a recommendation: Summarize your main findings and their relation to the primary issues. Provide actionable suggestions.
+- Rendering
+- Animation
+- Collision Mechanics
+- Physics
+- Audio Intricacies
+- Trigger Systems
+- Intricate Shading
+- Control Logic
+- Nuances of Behavior Trees
+- Rudiments of Artificial Intelligence.
+
+The course not only outlines the underpinnings of real-time graphics engines but also equips students with the skills to harness libraries, such as **physics and graphics libraries**, tailoring them to forge interactive real-time virtual environments. Key discussions revolve around:
+
+- Graphics Pipeline
+- Scene Graph Intricacies
+- Adept Level Design
+- Behavior Scripting
+- Tenets of Object-Oriented Game Design
+- Analytics
+- Versatile Scripting Languages.
+
+Moreover, in a distinctive module, the course will unravel the potential of **generative AI** in the realms of character design, storyboarding, and animation. Participants will be introduced to:
+
+- How AI can be employed to generate innovative character archetypes
+- Envision dynamic storyboards
+- Automate intricate animation sequences
+
+Pushing the boundaries of traditional media production, by the culmination of this course, students will not only possess a profound understanding of real-time design mechanics but also an appreciation for the transformative role of **AI in shaping the future of interactive media and storytelling**.
 
 
-_Case Interview Guidelines_
+## Learning Objectives
 
-# 1. Guidelines for Case Interview
-## 1) Pay Attention to the Question
-## 2) Maintain Detailed Notes
-## 3) Paraphrase the Question
-- To demonstrate active listening
-- To review the question a second time
-- To avoid responding to an incorrect question
-- To buy some thinking time
+In this course, students will immerse themselves in the dynamic realm of **Building Virtual Environments**, making use of cutting-edge platforms like Unreal Engine and Unity 3D. The course will unravel the complex tapestry of systems that give life to 2D and 3D worlds, spanning rendering, animation, collisions, physics, and a host of other critical components.
 
-## 4) Confirm the Goals
-## 5) Pose Clarifying Questions
-- To obtain extra information to help you categorize and comprehend the question
-- To prove to the interviewer that you are comfortable asking penetrating questions
-- To turn the interview into a dialog
+A deep dive into the operational mechanics of game and graphic engines will empower students to harness libraries tailored for physics and graphics, aiding in the crafting of virtual realms. In-depth discussions encompassing:
 
-> Early in the case, you have a wide scope for questioning. Start with fundamental questions about the company, industry, competition, external market factors, and the product. As the case progresses, your queries should gradually transition from open-ended to more specific ones. You may find yourself struggling when you pose expansive, general questions that are challenging for the interviewer to respond to. Such questions can give the impression that you want the interviewer to solve the case for you. (from Case in Point 9th)
+- Graphics Pipeline
+- Scene Graph
+- The art of Level Design
+- Nuances of Behavior Scripting
+- Essence of Object-Oriented Game Design
+- Utility of World Editors
+- Vast world of Scripting Languages
 
-## 6) Arrange Your Response
-## 7) Refrain From Sharing Unformed Thoughts
-## 8) Control Your Time
-- Answers should be sequential and clear-cut
-- Begin from a larger perspective
-- Stay attentive to the original question
-- Don't lose sight of the question, the objective, or the structure
+will be undertaken.
 
-## 9) Handle Numerical Data
-- When performing calculations, clarify your thought process and method.
+Additionally, students will touch upon the modern realms of servers and delve into the nuances of mobile programming, focusing on platforms like Android and iPhone.
 
-## 10) Display Willingness to Learn
-- Pay attention to the feedback from the interviewer
-- Seek assistance when required
+### Throughout the course journey:
 
-## 11) Showcase Creativity and Problem-Solving Skills
-## 12) Display Positivity and Enthusiasm
-## 13) Wrap Up and Recap
+- Students will engage in weekly assignments, spanning the development of compact games or tools, intricate 3D simulations, or virtual environments.
+- Biweekly in-class progress presentations will keep the learning momentum high.
+- The curriculum will entail both a group project and an individual project for a holistic learning experience.
 
-# 2 Categories of Case Questions
-## 1) Market-sizing Questions
-- Logical assumption is essential
-> Tell the interviewer: "I’m not that familiar with this market, so if my assumptions are off, please correct me."
+The curriculum's first half will pull students into the practical dimensions of programming for games, virtual environments, and real-time 3D in platforms like Unreal Engine or Unity 3D. The essence lies in **"hands-on"** experiential learning, fostering skills through the creation of a series of micro-projects. Students will begin with a rudimentary skeleton and then progressively enhance and extend this foundational structure with each assignment.
 
-- Essential figures to memorize:
-  - U.S. population is 320 million
-  - The average lifespan of an American is 80 years
-  - Assume equal distribution across age groups: implying there are as many 2-year-olds as 72-year-olds. While this isn't accurate, for the sake of this case, it's a reasonable assumption, thus 4 million people per age group.
-  - 80 million individuals per generation
-  - 100 million U.S. households
-## 2) Component Questions
-## 3) Business Scenario Questions
+As we transition into the course's latter half, the focal points will shift towards:
 
-# 3 Case Structure
-A structure is a tool that aids in the systematic organization and analysis of the case.
+- Social/Network Gaming
+- The enchanting domains of Virtual Reality
+- The transformative realm of Augmented Reality programming.
 
-## Two segments:
-### Initial five steps:
-1. Paraphrase the Question: Ensure you have the correct figures (repeat the figures);
-**Tip:** Convert the numbers into percentages.
-2. Confirm the objectives.
-3. Pose clarifying Questions (only when you fail to understand the question)
-4. Tag the case and present your structure (60s-90s)
-5. Propose your theory
+### The overarching learning objectives for this course are to:
 
-### Heart of the case
-- The Company and the Market
+1. Master programming in both C++ and C# with clarity, robustness, efficiency, and safety.
+2. Understand game engine rendering intricacies.
+3. Dive deep into the world of animation, including generative AI-driven character design, storyboarding, and advanced animation techniques.
+4. Grasp game engine collision mechanics.
+5. Navigate the physics of game engines.
+6. Comprehend game engine audio systems.
+7. Delve into game engine trigger mechanisms.
+8. Explore the art of game engine shaders.
+9. Embrace augmented reality's transformative potential.
+10. Venture into the immersive realms of virtual reality.
+11. Engage with social/network gaming dynamics.
+12. Explore mobile gaming's nuances.
+13. Understand game servers' foundational principles.
+14. Dive into the basics of Game AI.
+15. Familiarize oneself with basic Game Analytics.
 
-### Four Key case scenarios
-#### Profit and loss
-- The framework involves Economy * (Profit = Revenue - Cost ) * Market
-#### Entering a new market
-"Why does the company wish to enter this market?" is the first crucial question to ask your interviewer!
-1. Start by asking about the company
-2. Assess the current and future market condition
-3. Evaluate the market to determine if entry would be a wise business move.
-4. If decided to enter, what is the most effective entry strategy? **Starting from scratch; acquisition; forming a joint venture; or outsourcing.**
 
-#### Pricing (Company S is launching a new product. What should be its price?)
-1. What is the goal? - profit, market share, or brand positioning? How significant is it? What products does it have?
-2. Examine the product: competitive analysis; cost-based pricing, and price-based costing.
-3. Consider the product as a service, not just a standalone product.
+## Weekly Schedule
 
-#### Growth and sales enhancement
-1. Explore the industry
-2. Investigate the company
+### Week 1
+- Game Design Document or GDD
+- Generative AI for Game Conceptualization and Content Ideas
+
+### Week 2
+- Unity Game Engine Basics
+- Generative AI for Character Style
+
+### Week 3
+- Unity Game Engine Basics (Advanced)
+- Generative AI for Character Design
+
+### Week 4
+- Unreal Engine Basics
+- Generative AI for background generation
+
+### Week 5
+- Unreal Engine Basics (Advanced)
+- Generative AI for 3D modeling
+
+### Week 6
+- Shaders & Materials
+- Generative AI for Shader and Material Design
+
+### Week 7
+- Advanced Shaders & Materials
+- Generative AI for Storyboards
+
+### Week 8
+- Shaders & Materials (Applied Techniques)
+- Generative AI for Adaptive Shader Creation
+
+### Week 9
+- Particle Effects
+- Generative AI for Procedural Particle Effect Generation
+
+### Week 10
+- Animation
+- Generative AI for Character Animation and Motion Synthesis
+
+### Week 11
+- Advanced Animation Techniques
+- Generative AI for Sprite Based-Animation
+
+### Week 12
+- Audio
+- Generative AI for Music Composition and Voice Over Synthesis
+
+### Week 13
+- Profiling/Optimization
+- Generative AI-driven Techniques for Dynamic Content Generation
+
+### Week 14
+- Game AI Basics
+- Generative AI for Game AI
+
+### Week 15
+- Final Projects
+- Generative AI for creating a Game Trailer
+
 
