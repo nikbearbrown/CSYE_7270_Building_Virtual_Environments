@@ -15,7 +15,8 @@ Applicants who meet the department's standards and present an exemplary game tut
 If you wish to participate, request collaboration for this repository and submit your tutorial as a sub-directory within this directory.
 
 ### Eligibility Guidelines:
-- Familiarize yourself with the syllabus [here](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) and contest specifics [here](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/TA_Contest_Fall_23). Design a tutorial for a theme highlighted under "Weekly Schedule." 
+- Familiarize yourself with the [syllabus](https://github.com/nikbearbrown/CSYE_7270_Building_Virtual_Environments/tree/main/Syllabus) and [contest specifics](https://github.com/nikbearbrown/CSYE_7270_Building_Virtual_Environments/tree/main/TA_Contest_Fall_23). Design a tutorial learning game programming. Most students will use the game they built in the class as their starting point.
+
 - Your tutorial should encompass:
   1. An in-depth video elucidating the code and design developed in Unity 3D or Unreal Engine.
   2. Accessible code to enable users to try and download your game.
