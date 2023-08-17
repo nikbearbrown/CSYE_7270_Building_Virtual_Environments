@@ -4,7 +4,7 @@
 
 
 
-<img src='./img/icon.jpg' width=160>
+<img src='./img/icon.jpg' width=160 align=center>
 
 
 
@@ -32,7 +32,7 @@ Details follow the description below:
 
 Download resource from asset store:
 
-<img src='./img/asset.jpg' width=500>
+<img src='./img/asset.jpg' width=500 align=center>
 
 1. Get partial original game material in the Unity Asset Store；
 
@@ -40,7 +40,7 @@ Download resource from asset store:
 
 3. Build animations
 
-   <img src='./img/anime.jpg' width=500>
+   <img src='./img/anime.jpg' width=500 align=center>
 
 
 
@@ -50,7 +50,7 @@ Download resource from asset store:
 
    
 
-   <img src='./img/animator.jpg' width=560>
+   <img src='./img/animator.jpg' width=560 align=center>
 
    
 
@@ -66,7 +66,7 @@ Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
 
    
 
-   <img src='./img/prefabs.jpg' width=360>
+   <img src='./img/prefabs.jpg' width=360 align=center>
 
    
 
@@ -76,7 +76,7 @@ Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
 
    
 
-<img src='./img/playermove.jpg' width=560>
+<img src='./img/playermove.jpg' width=560 align=center>
 
 
 
