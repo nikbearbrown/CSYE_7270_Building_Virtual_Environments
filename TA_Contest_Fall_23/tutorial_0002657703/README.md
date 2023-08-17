@@ -1,16 +1,22 @@
 ## Game Design tutorial
 
 
+<br><br>
 
+<p align="center">
+  <img src='./img/icon.jpg' width=160 >
+</p>
 
+<br>
 
-<img src='./img/icon.jpg' width=160 align=center>
+This tutorial aims to demonstrate how to realize character movements in Unity Engine, whichh is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive](https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link).
 
+<br>
 
+### Tutorial Video: 
+Available at: https://youtu.be/0BNZHSxVg-I
 
-This tutorial aims to demonstrate how to realize character movements in Unity Engine, whichh is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive][https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link].
-
-
+<br>
 
 ### Procedure
 
@@ -31,26 +37,30 @@ Details follow the description below:
 #### Animations 
 
 Download resource from asset store:
+<p align="center">
 
-<img src='./img/asset.jpg' width=500 align=center>
+  <img src='./img/asset.jpg' width=500 align=center>
+</p>
 
 1. Get partial original game material in the Unity Asset Store；
 
 2. Cut frames from original sprite images
 
 3. Build animations
-
+<p align="center">
    <img src='./img/anime.jpg' width=500 align=center>
-
+</p>
 
 
 #### Animator
 
 1. Build an `animator` , which links the transaction between animations
 
-   
+<p align="center">
+  <img src='./img/animator.jpg' width=560 align=center>
+</p>    
 
-   <img src='./img/animator.jpg' width=560 align=center>
+   
 
    
 
@@ -64,9 +74,11 @@ Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
 
 1. Link the Character object with a control script
 
-   
+<p align="center">
+  <img src='./img/prefabs.jpg' width=360 align=center>
+</p>   
 
-   <img src='./img/prefabs.jpg' width=360 align=center>
+   
 
    
 
@@ -76,7 +88,10 @@ Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
 
    
 
-<img src='./img/playermove.jpg' width=560 align=center>
+<p align="center">
+  <img src='./img/playermove.jpg' width=560 align=center>
+</p>  
+
 
 
 
