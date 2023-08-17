@@ -44,7 +44,7 @@ Download resource from asset store:
 
 
 
-**Animator**
+**Animator **
 
 1. Build an `animator` , which links the transaction between animations
 
