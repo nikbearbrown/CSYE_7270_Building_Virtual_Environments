@@ -28,7 +28,7 @@ Details follow the description below:
 
 
 
-**Animations **
+#### Animations 
 
 Download resource from asset store:
 
@@ -44,7 +44,7 @@ Download resource from asset store:
 
 
 
-**Animator **
+#### Animator
 
 1. Build an `animator` , which links the transaction between animations
 
@@ -58,7 +58,7 @@ Download resource from asset store:
 
 
 
-**Control Scripts **
+#### Control Scripts
 
 Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
 
