@@ -9,7 +9,7 @@
 
 <br>
 
-This tutorial aims to demonstrate how to realize character movements in Unity Engine, whichh is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive](https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link). This tutorial is based on a almost completed project Some parts of the tutorial may not detailed, so if any problems in following up, plz reach out me on Github.
+This tutorial aims to demonstrate how to realize character movements in Unity Engine, which is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive](https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link). Due to this tutorial is based on a almost completed project Some parts of the tutorial may not be detailed, so if any problems in following up, plz reach out me on Github.
 
 <br>
 
