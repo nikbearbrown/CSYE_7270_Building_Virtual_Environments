@@ -16,13 +16,8 @@ This tutorial aims to demonstrate how to realize character movements in Unity En
 ### Tutorial Video: 
 Available at: https://youtu.be/0BNZHSxVg-I
 
-<iframe
-    height="480"
-    src="https://www.youtube.com/embed/0BNZHSxVg-I"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+  [![Watch the video!](https://img.youtube.com/vi/0BNZHSxVg-I/0.jpg)](https://www.youtube.com/watch?v=0BNZHSxVg-I)
+
 
 
 
