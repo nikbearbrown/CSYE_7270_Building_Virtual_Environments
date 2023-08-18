@@ -9,7 +9,7 @@
 
 <br>
 
-This tutorial aims to demonstrate how to realize character movements in Unity Engine, whichh is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive](https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link).
+This tutorial aims to demonstrate how to realize character movements in Unity Engine, whichh is one of most basic functions in any games. In this project, a character from Unity Asset Store is used as an example, and the entire project file can be download from [Google drive](https://drive.google.com/file/d/1YLikoaRcjS-FViOHQH-A6wQJaJki-yGG/view?usp=drive_link). This tutorial is based on a almost completed project Some parts of the tutorial may not detailed, so if any problems in following up, plz reach out me on Github.
 
 <br>
 
@@ -37,9 +37,9 @@ Details follow the description below:
 #### Animations 
 
 Download resource from asset store:
-<p align="center">
 
-  <img src='./img/asset.jpg' width=500 align=center>
+<p align="center">
+   <img src='./img/asset.jpg' width=500 align=center>
 </p>
 
 1. Get partial original game material in the Unity Asset Store；
@@ -50,6 +50,18 @@ Download resource from asset store:
 <p align="center">
    <img src='./img/anime.jpg' width=500 align=center>
 </p>
+P.S
+
+In this project, generative AI also used to provide sprites source for making animation, although the output from Midjourney is not perfect and need further edit in Aseprite
+
+<br>
+
+<p align="center">
+  <img src='./img/ai.jpg' width=560 align=center>
+</p>
+
+<br>
+
 
 
 #### Animator
@@ -60,9 +72,9 @@ Download resource from asset store:
   <img src='./img/animator.jpg' width=560 align=center>
 </p>    
 
-   
 
-   
+
+
 
 2. Set boundary conditions (contains variables)
 
@@ -78,9 +90,9 @@ Load  `run` variable  from `animator`  and idle from `Sprite Renderer`
   <img src='./img/prefabs.jpg' width=360 align=center>
 </p>   
 
-   
 
-   
+
+
 
 2. horizontal moments: Using default `GetAxis` function in Unity engine
 
