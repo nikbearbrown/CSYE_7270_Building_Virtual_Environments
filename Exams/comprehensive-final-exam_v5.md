@@ -4,378 +4,378 @@
 ---
 
 ### Question 1 (5 pts)
-What would be the most appropriate physics body type for a swinging pendulum in a game?
+Which of the following properties can be used to control a Rigidbody's interaction with physics in Unity? (Select all that apply)
 
-- [ ] Static Body  
-- [ ] Dynamic Body with gravity disabled  
-- [ ] Kinematic Body with manual animation  
-- [ ] Dynamic Body with hinge joint  
-- [ ] Trigger Volume with physics materials  
+- [ ] IsKinematic  
+- [ ] UseGravity  
+- [ ] StaticFriction  
+- [ ] Mass  
+- [ ] CollisionMatrix  
 
 ---
 
 ### Question 2 (5 pts)
-In Unity, which function would be most appropriate for applying a constant force to a Rigidbody?
+Which Unity event functions will run after all Update calls are completed? (Select all that apply)
 
-- [ ] Update()  
-- [ ] Awake()  
-- [ ] LateUpdate()  
-- [ ] FixedUpdate()  
-- [ ] OnCollisionStay()  
+- [ ] LateUpdate  
+- [ ] FixedUpdate  
+- [ ] PostRender  
+- [ ] OnDrawGizmos  
+- [ ] OnSceneLoad  
 
 ---
 
 ### Question 3 (5 pts)
-What condition would prevent OnCollisionEnter from being called when two objects collide in Unity?
+Which of the following are valid methods to handle user input in Unity? (Select all that apply)
 
-- [ ] One object has a Mesh Collider  
-- [ ] Both objects have Rigidbody components  
-- [ ] One object has isTrigger enabled  
-- [ ] The collision layer matrix settings  
-- [ ] The objects have different physics materials  
+- [ ] Input.GetKey  
+- [ ] Input.GetAxis  
+- [ ] InputSystem.PollEvents  
+- [ ] Input.GetButtonDown  
+- [ ] Input.PressKey  
 
 ---
 
 ### Question 4 (5 pts)
-What is the purpose of UV unwrapping in 3D modeling for games?
+In computer graphics, which maps are used to add surface detail without adding geometry? (Select all that apply)
 
-- [ ] To optimize vertex counts in complex models  
-- [ ] To calculate collision meshes automatically  
-- [ ] To define how 2D textures map onto 3D surfaces  
-- [ ] To convert high-poly models to low-poly versions  
-- [ ] To animate facial expressions through blend shapes  
+- [ ] Normal maps  
+- [ ] Diffuse maps  
+- [ ] Displacement maps  
+- [ ] Ambient occlusion maps  
+- [ ] Specular maps  
 
 ---
 
 ### Question 5 (5 pts)
-In PBR (Physically Based Rendering), what does the metallic parameter control?
+What properties are typically included in a physically-based rendering (PBR) material? (Select all that apply)
 
-- [ ] How much light the material reflects in all directions  
-- [ ] How much light the material emits  
-- [ ] Whether the material uses metal or dielectric reflectance properties  
-- [ ] The color tint of specular highlights  
-- [ ] The visibility of normal map details  
+- [ ] Base Color/Albedo  
+- [ ] Metallic  
+- [ ] Roughness/Smoothness  
+- [ ] Temperature  
+- [ ] Script Reference  
 
 ---
 
 ### Question 6 (5 pts)
-What is the main advantage of using Blueprints in Unreal Engine compared to traditional coding?
+In Unreal Engine, what are valid Blueprint communication methods? (Select all that apply)
 
-- [ ] Blueprints always execute faster than C++ code  
-- [ ] Blueprints can access engine features that C++ cannot  
-- [ ] Visual scripting allows for rapid prototyping without compilation  
-- [ ] Blueprints automatically optimize memory usage  
-- [ ] Blueprints can run on platforms that don't support C++  
+- [ ] Direct Function Calls  
+- [ ] Event Dispatchers  
+- [ ] Interfaces  
+- [ ] Data Tables  
+- [ ] Form Submissions  
 
 ---
 
 ### Question 7 (5 pts)
-Which data structure in C# creates garbage collection pressure when modified frequently?
+Which programming practices can help reduce garbage collection pauses in Unity C# code? (Select all that apply)
 
-- [ ] Arrays  
-- [ ] Lists  
-- [ ] Dictionaries  
-- [ ] Stacks  
-- [ ] Value-type structs  
+- [ ] Using object pooling  
+- [ ] Avoiding string concatenation in Update  
+- [ ] Creating new List<T> objects frequently  
+- [ ] Using foreach loops on collections  
+- [ ] Caching component references  
 
 ---
 
 ### Question 8 (5 pts)
-In Unreal Engine, what is the purpose of the Construction Script in a Blueprint?
+Which of the following are true about delegates in C#? (Select all that apply)
 
-- [ ] To initialize variables when a level is loaded  
-- [ ] To set up the Blueprint's components and properties at design time and when spawned  
-- [ ] To define how the Blueprint interacts with physics  
-- [ ] To manage the destruction sequence when the actor is removed  
-- [ ] To handle network replication settings  
+- [ ] They allow methods to be passed as parameters  
+- [ ] They are value types  
+- [ ] They can reference multiple methods (multicast)  
+- [ ] They are used to create serialized data  
+- [ ] They improve garbage collection  
 
 ---
 
 ### Question 9 (5 pts)
-What technique allows a character in a 3D game to accurately place their feet on uneven terrain?
+What methods can be used to improve character animation quality in games? (Select all that apply)
 
-- [ ] Animation blending  
 - [ ] Inverse Kinematics (IK)  
-- [ ] Root motion  
-- [ ] Animation retargeting  
-- [ ] Motion matching  
+- [ ] Blendshapes/Morph targets  
+- [ ] Animation layers  
+- [ ] Forward Kinematics Optimization  
+- [ ] Animation Retargeting  
 
 ---
 
 ### Question 10 (5 pts)
-In animation state machines, what are transitions primarily used for?
+Which of these techniques can be used for camera collision avoidance in third-person games? (Select all that apply)
 
-- [ ] To skip frames in animations for performance  
-- [ ] To blend smoothly between different animation states  
-- [ ] To synchronize animations with sound effects  
-- [ ] To convert animations between different skeleton rigs  
-- [ ] To reduce animation file sizes  
+- [ ] Raycasting from target to camera  
+- [ ] Sphere casting from target to camera  
+- [ ] Camera smoothing  
+- [ ] Spring-arm component  
+- [ ] Lens distortion adjustment  
 
 ---
 
 ### Question 11 (5 pts)
-What Unity Particle System property allows particles to interact with scene objects?
+What are valid ways to optimize particle systems in games? (Select all that apply)
 
-- [ ] External Forces  
-- [ ] Collision Module  
-- [ ] Triggers Module  
-- [ ] Physics Material  
-- [ ] Sub Emitters  
+- [ ] Reducing max particle count  
+- [ ] Using simpler collision detection  
+- [ ] Increasing texture resolution  
+- [ ] Using flipbook animations  
+- [ ] Setting higher simulation quality  
 
 ---
 
 ### Question 12 (5 pts)
-Which technique would be most appropriate for optimizing a complex fire effect in a game?
+Which techniques can reduce overdraw in transparent effects? (Select all that apply)
 
-- [ ] Increasing particle count and reducing their size  
-- [ ] Using animated textures instead of individual particles  
-- [ ] Rendering each flame as a separate mesh  
-- [ ] Using high-resolution particle textures  
-- [ ] Applying post-processing effects to simulate flames  
+- [ ] Alpha testing instead of alpha blending  
+- [ ] Sorting particles back-to-front  
+- [ ] Using opaque materials when possible  
+- [ ] Using larger particles  
+- [ ] Adding more transparent layers  
 
 ---
 
 ### Question 13 (5 pts)
-What is the primary advantage of skeletal animation over vertex animation?
+Which of the following statements about root motion in character animation are true? (Select all that apply)
 
-- [ ] It requires less memory  
-- [ ] It allows for more complex animations  
-- [ ] It enables easier animation of separate body parts  
-- [ ] It produces more realistic lighting  
-- [ ] It automatically generates collision detection  
+- [ ] It extracts movement from animation data  
+- [ ] It provides more realistic character movement  
+- [ ] It requires more animator configuration  
+- [ ] It automatically avoids all obstacles  
+- [ ] It reduces CPU usage in all scenarios  
 
 ---
 
 ### Question 14 (5 pts)
-In procedural animation, what approach would be used to make a character react realistically to being hit?
+Which animation techniques are commonly used in modern fighting games? (Select all that apply)
 
-- [ ] Pre-baked physics simulation  
-- [ ] Ragdoll physics  
-- [ ] Root motion capture  
-- [ ] Animation state blending  
-- [ ] Facial motion capture  
+- [ ] Animation canceling  
+- [ ] Hitbox/Hurtbox systems  
+- [ ] Motion matching  
+- [ ] Pose matching  
+- [ ] Server-authoritative animation  
 
 ---
 
 ### Question 15 (5 pts)
-What technique is used to ensure that a character's hand correctly grips different weapons?
+In audio design, which techniques can create a more immersive 3D sound experience? (Select all that apply)
 
-- [ ] Socket attachments  
-- [ ] Inverse Kinematics (IK)  
-- [ ] Forward Kinematics  
-- [ ] Blend shapes  
-- [ ] Procedural mesh deformation  
+- [ ] HRTF (Head-Related Transfer Function)  
+- [ ] Audio occlusion  
+- [ ] Reverb zones  
+- [ ] Audio compression  
+- [ ] Bit-depth reduction  
 
 ---
 
 ### Question 16 (5 pts)
-Which audio feature is most important for creating realistic vehicle engine sounds that match speed?
+What factors affect the perceived loudness of in-game audio? (Select all that apply)
 
-- [ ] High dynamic range  
-- [ ] Binaural recording  
-- [ ] Parameter-driven sound synthesis  
-- [ ] Audio compression  
-- [ ] Spatialization  
+- [ ] Distance from listener  
+- [ ] Audio occlusion by geometry  
+- [ ] Environmental factors (water, caves)  
+- [ ] View frustum culling  
+- [ ] Audio normalization  
 
 ---
 
 ### Question 17 (5 pts)
-What audio technique creates the illusion that sound is coming from specific directions in a 3D environment?
+Which rendering techniques can improve performance in games with many lights? (Select all that apply)
 
-- [ ] Dynamic range compression  
-- [ ] Audio spatialization  
-- [ ] Frequency modulation  
-- [ ] Audio normalization  
-- [ ] Reverb zones  
+- [ ] Light baking  
+- [ ] Clustered forward rendering  
+- [ ] Screen-space reflections  
+- [ ] Light culling  
+- [ ] Shadow map cascades  
 
 ---
 
 ### Question 18 (5 pts)
-Which approach would be most effective for reducing draw calls in a complex scene?
+Which optimization techniques apply to mobile game development? (Select all that apply)
 
-- [ ] Using more detailed textures  
-- [ ] Implementing dynamic resolution scaling  
-- [ ] Using instanced rendering for repeated objects  
-- [ ] Increasing the shadow resolution  
-- [ ] Enabling anti-aliasing  
+- [ ] Reducing draw calls  
+- [ ] Using lower resolution textures  
+- [ ] Implementing occlusion culling  
+- [ ] Using more dynamic lighting  
+- [ ] Increasing polygon count for smoother edges  
 
 ---
 
 ### Question 19 (5 pts)
-In pathfinding AI, what does the A* algorithm optimize for?
+Which are common components of a behavior tree AI system? (Select all that apply)
 
-- [ ] Memory usage during calculation  
-- [ ] Finding the absolute shortest path  
-- [ ] Balancing path length with calculation speed  
-- [ ] Avoiding other AI agents  
-- [ ] Finding multiple possible paths simultaneously  
+- [ ] Sequence nodes  
+- [ ] Selector nodes  
+- [ ] Decorator nodes  
+- [ ] Rendering nodes  
+- [ ] Collision nodes  
 
 ---
 
 ### Question 20 (5 pts)
-Which is NOT typically a component of a navigation mesh (NavMesh) system?
+What features are typically found in commercial game engines? (Select all that apply)
 
-- [ ] Agent radius  
-- [ ] Walkable slope angle  
-- [ ] Jump distance  
-- [ ] Rendering priority  
-- [ ] Area cost modifiers  
+- [ ] Physics simulation  
+- [ ] Audio systems  
+- [ ] Rendering pipelines  
+- [ ] Automatic code optimization  
+- [ ] AI programming  
 
 ---
 
 ### Question 21 (5 pts)
-What is the main purpose of object pooling in game development?
+Which types of colliders are more performance-efficient in physics engines? (Select all that apply)
 
-- [ ] To organize object hierarchies in the scene  
-- [ ] To avoid the performance cost of instantiating and destroying objects  
-- [ ] To share materials between different objects  
-- [ ] To synchronize object states between client and server  
-- [ ] To implement save/load functionality  
+- [ ] Box colliders  
+- [ ] Sphere colliders  
+- [ ] Capsule colliders  
+- [ ] Mesh colliders (convex)  
+- [ ] Mesh colliders (non-convex)  
 
 ---
 
 ### Question 22 (5 pts)
-In shader programming, what is the primary benefit of using a compute shader?
+Which data structures would be appropriate for efficiently storing a large open-world terrain? (Select all that apply)
 
-- [ ] Lower memory usage  
-- [ ] Simplified coding syntax  
-- [ ] Parallel processing of large data sets  
-- [ ] Automatic optimization for mobile devices  
-- [ ] Built-in physics calculations  
+- [ ] Quadtrees  
+- [ ] Height maps  
+- [ ] Octrees  
+- [ ] Linked lists  
+- [ ] Chunk-based arrays  
 
 ---
 
 ### Question 23 (5 pts)
-Which technique is most suitable for dynamically adjusting game difficulty based on player performance?
+Which are valid methods for implementing a health system in games? (Select all that apply)
 
-- [ ] A/B testing  
-- [ ] Procedural content generation  
-- [ ] Dynamic difficulty adjustment  
-- [ ] User interface customization  
-- [ ] Leaderboard integration  
+- [ ] ScriptableObject to store health data  
+- [ ] Component-based design with a Health component  
+- [ ] Event-based damage system  
+- [ ] Singleton health manager  
+- [ ] Registry-based entity targeting  
 
 ---
 
 ### Question 24 (5 pts)
-When implementing a singleton pattern in Unity, which approach is generally considered best practice?
+Which of the following are effective ways to implement a day-night cycle in an open-world game? (Select all that apply)
 
-- [ ] Using a static class  
-- [ ] Using a MonoBehaviour with DontDestroyOnLoad  
-- [ ] Using ScriptableObjects  
-- [ ] Creating a new GameObject in each scene  
-- [ ] Using PlayerPrefs to store singleton data  
+- [ ] Rotating a directional light  
+- [ ] Changing the skybox material  
+- [ ] Adjusting post-processing settings  
+- [ ] Modifying the game's physics timestep  
+- [ ] Changing the audio engine's decay factor  
 
 ---
 
 ### Question 25 (5 pts)
-What is the main purpose of a profiler in game development?
+What techniques can help reduce load times in games? (Select all that apply)
 
-- [ ] To check for code syntax errors  
-- [ ] To identify performance bottlenecks  
-- [ ] To optimize art assets automatically  
-- [ ] To simulate different hardware configurations  
-- [ ] To test network connectivity  
+- [ ] Asset streaming  
+- [ ] Level of Detail (LOD) systems  
+- [ ] Asset bundling  
+- [ ] Asynchronous loading  
+- [ ] Just-in-time compilation  
 
 ---
 
 # Answer Key
 
 ### Question 1
-**Correct Answer**: Dynamic Body with hinge joint  
-> **Explanation**: A pendulum requires physical simulation to swing realistically under gravity and respond to forces. A Dynamic Body (Rigidbody) with a hinge joint allows for physically accurate pendulum motion while constraining rotation to a single axis.
+**Correct Answers**: IsKinematic, UseGravity, Mass
+> **Explanation**: IsKinematic makes a Rigidbody ignore forces and move only through transform changes. UseGravity toggles gravity's effect on the Rigidbody. Mass determines how forces affect the Rigidbody. StaticFriction is not a Unity property, and CollisionMatrix is not a Rigidbody property (collision layers are set separately).
 
 ### Question 2
-**Correct Answer**: FixedUpdate()  
-> **Explanation**: FixedUpdate() is called at fixed time intervals synchronized with the physics system, making it ideal for applying physics forces. This ensures consistent force application regardless of frame rate fluctuations, unlike Update() which varies with frame rate.
+**Correct Answers**: LateUpdate, OnDrawGizmos
+> **Explanation**: LateUpdate runs after all Update functions have completed, making it useful for camera following. OnDrawGizmos runs after rendering for editor visualization. FixedUpdate runs at fixed intervals for physics, not tied to Update. PostRender is not a standard Unity event, and OnSceneLoad doesn't exist (Unity uses OnSceneLoaded instead).
 
 ### Question 3
-**Correct Answer**: One object has isTrigger enabled  
-> **Explanation**: When a collider has isTrigger enabled, it will generate OnTriggerEnter instead of OnCollisionEnter events. Triggers allow objects to overlap without creating physical collision responses, but still detect the intersection.
+**Correct Answers**: Input.GetKey, Input.GetAxis, Input.GetButtonDown
+> **Explanation**: Input.GetKey checks if a specific key is pressed. Input.GetAxis reads axis input like joysticks or WASD movement. Input.GetButtonDown detects when a mapped button is pressed down. InputSystem.PollEvents and Input.PressKey are not valid Unity input methods.
 
 ### Question 4
-**Correct Answer**: To define how 2D textures map onto 3D surfaces  
-> **Explanation**: UV unwrapping is the process of creating a 2D representation of a 3D model's surface, defining how texture coordinates (U and V) map onto the 3D geometry. This allows texture images to be correctly applied to models.
+**Correct Answers**: Normal maps, Ambient occlusion maps, Specular maps
+> **Explanation**: Normal maps simulate surface detail by affecting how light bounces off surfaces. Ambient occlusion maps simulate shadows in crevices. Specular maps control highlight intensity. Diffuse maps provide color/texture but don't add detail. Displacement maps actually modify geometry by displacing vertices.
 
 ### Question 5
-**Correct Answer**: Whether the material uses metal or dielectric reflectance properties  
-> **Explanation**: In PBR, the metallic parameter determines if a surface follows metallic or non-metallic (dielectric) reflectance models. Metals reflect light differently than non-metals, with colored specular reflections and fully absorbing diffuse light.
+**Correct Answers**: Base Color/Albedo, Metallic, Roughness/Smoothness
+> **Explanation**: Standard PBR materials include Base Color/Albedo (surface color), Metallic (whether surface is metal or non-metal), and Roughness/Smoothness (how sharply the surface reflects light). Temperature and Script Reference are not standard PBR properties.
 
 ### Question 6
-**Correct Answer**: Visual scripting allows for rapid prototyping without compilation  
-> **Explanation**: Unreal Engine's Blueprint visual scripting system allows developers to create gameplay elements without writing code, enabling rapid prototyping and iteration without the need for compilation steps that traditional C++ development requires.
+**Correct Answers**: Direct Function Calls, Event Dispatchers, Interfaces
+> **Explanation**: Unreal Engine Blueprints can communicate through Direct Function Calls (when one Blueprint has a reference to another), Event Dispatchers (for broadcasting events to multiple listeners), and Interfaces (for standardized communication between different Blueprint types). Data Tables store data but aren't communication methods. Form Submissions is not an Unreal Engine concept.
 
 ### Question 7
-**Correct Answer**: Lists  
-> **Explanation**: Lists in C# are dynamic arrays that resize when elements are added or removed. This resizing operation creates temporary objects and can lead to garbage collection when performed frequently, which can cause performance hitches in games.
+**Correct Answers**: Using object pooling, Avoiding string concatenation in Update, Caching component references
+> **Explanation**: Object pooling reuses objects instead of creating/destroying them. Avoiding string operations in frequently called methods reduces allocations. Caching component references (GetComponent once in Start) prevents repeated lookups. Creating new List objects frequently and using foreach (which creates hidden enumerators) both cause garbage collection.
 
 ### Question 8
-**Correct Answer**: To set up the Blueprint's components and properties at design time and when spawned  
-> **Explanation**: The Construction Script in Unreal Engine Blueprints runs in the editor when the Blueprint is modified and when the actor is spawned in-game. It's used to set up components, calculate properties, and perform other initialization tasks.
+**Correct Answers**: They allow methods to be passed as parameters, They can reference multiple methods (multicast)
+> **Explanation**: Delegates are reference types (not value types) that can be used to pass methods as parameters. Multicast delegates can reference and invoke multiple methods. They aren't related to serialization or garbage collection, though they can cause allocations if not handled properly.
 
 ### Question 9
-**Correct Answer**: Inverse Kinematics (IK)  
-> **Explanation**: Inverse Kinematics is a technique that calculates joint positions based on a target position. For foot placement, IK can dynamically adjust leg joint rotations to ensure feet connect properly with uneven terrain instead of floating or penetrating through it.
+**Correct Answers**: Inverse Kinematics (IK), Blendshapes/Morph targets, Animation layers, Animation Retargeting
+> **Explanation**: IK adjusts bones to meet positioning goals (like foot placement). Blendshapes deform meshes for facial expressions. Animation layers allow mixing animations (upper/lower body). Animation retargeting applies animations to different skeletons. "Forward Kinematics Optimization" is not a standard animation technique.
 
 ### Question 10
-**Correct Answer**: To blend smoothly between different animation states  
-> **Explanation**: Transitions in animation state machines control how the character moves from one animation state to another. They typically include blending settings that determine how gradually one animation morphs into another, preventing abrupt, unnatural changes.
+**Correct Answers**: Raycasting from target to camera, Sphere casting from target to camera, Spring-arm component
+> **Explanation**: Raycasting checks for obstacles between the character and camera. Sphere casting uses a sphere instead of a ray for smoother results. Spring-arm components (like in Unreal) handle collision avoidance with damping. Camera smoothing affects movement smoothness but not collision. Lens distortion is a visual effect, not collision avoidance.
 
 ### Question 11
-**Correct Answer**: Collision Module  
-> **Explanation**: The Collision Module in Unity's Particle System allows particles to interact with scene geometry, enabling effects like sparks bouncing off surfaces or dust settling on objects.
+**Correct Answers**: Reducing max particle count, Using simpler collision detection, Using flipbook animations
+> **Explanation**: Fewer particles means less computation. Simpler collision (or none) reduces physics calculations. Flipbook animations (texture animation) can simulate complex effects with fewer particles. Increasing texture resolution and higher simulation quality both increase performance cost, not reduce it.
 
 ### Question 12
-**Correct Answer**: Using animated textures instead of individual particles  
-> **Explanation**: Flipbook animations (animated textures) are more efficient for complex effects like fire. They reduce the number of particles needed by displaying flame animation in the texture itself rather than requiring many particles to create the illusion of flames.
+**Correct Answers**: Alpha testing instead of alpha blending, Using opaque materials when possible
+> **Explanation**: Alpha testing is binary (pixel visible or not) and reduces overdraw compared to blending. Opaque materials don't contribute to overdraw. Sorting back-to-front is necessary for correct transparency but doesn't reduce overdraw. Larger particles and more transparent layers both increase overdraw.
 
 ### Question 13
-**Correct Answer**: It enables easier animation of separate body parts  
-> **Explanation**: Skeletal animation uses a hierarchy of bones that can be animated independently, making it easy to animate different body parts separately (like arms and legs). This creates more complex animations than vertex animation, which directly manipulates mesh vertices.
+**Correct Answers**: It extracts movement from animation data, It provides more realistic character movement, It requires more animator configuration
+> **Explanation**: Root motion uses movement baked into animations for more natural motion rather than script-driven movement. It requires more setup in the animator controller. It doesn't automatically avoid obstacles and can be more CPU-intensive than script-driven movement in some cases.
 
 ### Question 14
-**Correct Answer**: Ragdoll physics  
-> **Explanation**: Ragdoll physics simulates physically-based body movement by applying forces to a jointed system of rigid bodies representing the character's skeleton. This creates realistic falling, tumbling, and impact reactions that would be difficult to animate manually.
+**Correct Answers**: Animation canceling, Hitbox/Hurtbox systems, Motion matching
+> **Explanation**: Fighting games use animation canceling to allow fluid combos, hitbox systems for precise collision detection during attacks, and increasingly motion matching for realistic movement. Pose matching is not a standard fighting game technique, and fighting games typically use client-side or deterministic lockstep netcode rather than server-authoritative animation.
 
 ### Question 15
-**Correct Answer**: Inverse Kinematics (IK)  
-> **Explanation**: Inverse Kinematics calculates limb positions based on target endpoints. For weapon gripping, IK adjusts the hand and arm joints to precisely align with different weapon handles, regardless of their size or position, creating natural-looking poses.
+**Correct Answers**: HRTF (Head-Related Transfer Function), Audio occlusion, Reverb zones
+> **Explanation**: HRTF simulates how sound interacts with a human head for realistic directionality. Audio occlusion simulates sound blockage by obstacles. Reverb zones create appropriate acoustic environments. Audio compression and bit-depth reduction are technical limitations that can reduce quality, not immersion-enhancing techniques.
 
 ### Question 16
-**Correct Answer**: Parameter-driven sound synthesis  
-> **Explanation**: Parameter-driven sound synthesis dynamically generates or modifies audio based on game parameters. For vehicle engines, the sound can be tied to RPM values, allowing the pitch and intensity to smoothly change with vehicle speed for a realistic experience.
+**Correct Answers**: Distance from listener, Audio occlusion by geometry, Environmental factors (water, caves)
+> **Explanation**: Sound attenuates with distance. Obstacles between sound and listener reduce volume. Environmental factors like underwater effects or cave reverb affect perceived loudness. View frustum culling is a rendering concept, not audio. Normalization adjusts overall levels but doesn't affect dynamic loudness perception.
 
 ### Question 17
-**Correct Answer**: Audio spatialization  
-> **Explanation**: Audio spatialization creates the perception that sounds originate from specific locations in 3D space. It uses techniques like HRTF (Head-Related Transfer Function), stereo panning, volume attenuation by distance, and Doppler effects to convince players of sound directionality.
+**Correct Answers**: Light baking, Clustered forward rendering, Light culling
+> **Explanation**: Light baking pre-computes lighting into textures. Clustered forward rendering efficiently groups lights by 3D space. Light culling prevents processing lights that don't affect visible objects. Screen-space reflections are for reflections, not light optimization. Shadow map cascades improve shadow quality but don't necessarily improve performance with many lights.
 
 ### Question 18
-**Correct Answer**: Using instanced rendering for repeated objects  
-> **Explanation**: Instanced rendering allows multiple copies of the same mesh to be drawn with a single draw call instead of one per object. This significantly reduces draw calls for scenes with repetitive elements like trees, props, or enemies that share the same mesh.
+**Correct Answers**: Reducing draw calls, Using lower resolution textures, Implementing occlusion culling
+> **Explanation**: Mobile devices benefit from fewer draw calls due to CPU limitations. Lower resolution textures reduce memory usage and fill rate requirements. Occlusion culling prevents rendering unseen objects. More dynamic lighting and higher polygon counts both increase rendering load, contrary to mobile optimization goals.
 
 ### Question 19
-**Correct Answer**: Balancing path length with calculation speed  
-> **Explanation**: The A* (A-star) algorithm combines the thoroughness of Dijkstra's algorithm with the speed of a greedy best-first search by using a heuristic to estimate remaining distance. This balance makes it efficient for games, finding optimal or near-optimal paths without exhaustively checking all possibilities.
+**Correct Answers**: Sequence nodes, Selector nodes, Decorator nodes
+> **Explanation**: Behavior trees use sequence nodes (execute children in order until one fails), selector nodes (try children until one succeeds), and decorator nodes (modify child node execution like inverters or repeaters). Rendering nodes and collision nodes are not standard behavior tree components but belong to rendering and physics systems.
 
 ### Question 20
-**Correct Answer**: Rendering priority  
-> **Explanation**: Navigation meshes (NavMeshes) define walkable areas for AI pathfinding and include parameters like agent size, walkable slopes, jump distances, and area costs. Rendering priority is a graphics concept unrelated to navigation meshes, which are primarily for gameplay logic rather than visual rendering.
+**Correct Answers**: Physics simulation, Audio systems, Rendering pipelines, AI programming
+> **Explanation**: Commercial game engines like Unity and Unreal include physics systems, audio management, rendering technology, and AI tools. While they include optimization features, "automatic code optimization" that automatically rewrites your code for better performance is not a standard feature.
 
 ### Question 21
-**Correct Answer**: To avoid the performance cost of instantiating and destroying objects  
-> **Explanation**: Object pooling reuses objects instead of repeatedly creating and destroying them. This improves performance by avoiding the memory allocation/deallocation overhead of instantiation, which can cause frame rate hitches, especially during intense gameplay with many objects (like projectiles or enemies).
+**Correct Answers**: Box colliders, Sphere colliders, Capsule colliders
+> **Explanation**: Primitive colliders (box, sphere, capsule) are much more efficient than mesh colliders because their collision detection uses simple mathematical formulas. Mesh colliders, especially non-convex ones, are significantly more performance-intensive as they involve more complex calculations.
 
 ### Question 22
-**Correct Answer**: Parallel processing of large data sets  
-> **Explanation**: Compute shaders leverage the GPU's massively parallel architecture to process large amounts of data simultaneously. This makes them ideal for calculations involving many elements like particle systems, cloth simulation, or large-scale terrain modification that would be inefficient on the CPU.
+**Correct Answers**: Quadtrees, Height maps, Octrees, Chunk-based arrays
+> **Explanation**: Large terrains benefit from spatial partitioning structures like quadtrees (2D) and octrees (3D), height maps for elevation data, and chunk-based systems for streaming and LOD. Linked lists lack spatial organization and would be inefficient for terrain lookups.
 
 ### Question 23
-**Correct Answer**: Dynamic difficulty adjustment  
-> **Explanation**: Dynamic difficulty adjustment (DDA) continuously monitors player performance and automatically adjusts game parameters (enemy stats, resource availability, etc.) to maintain an appropriate challenge level, keeping players in a "flow state" between boredom and frustration.
+**Correct Answers**: ScriptableObject to store health data, Component-based design with a Health component, Event-based damage system, Singleton health manager
+> **Explanation**: All four are valid approaches: ScriptableObjects can store health configuration, component-based designs attach health to entities, event systems decouple damage sources from targets, and singletons can manage global health. "Registry-based entity targeting" is not a standard pattern for health systems.
 
 ### Question 24
-**Correct Answer**: Using a MonoBehaviour with DontDestroyOnLoad  
-> **Explanation**: For Unity singletons, a MonoBehaviour with DontDestroyOnLoad() is generally recommended as it allows the object to persist between scene loads while still having access to Unity's component system and event functions, unlike static classes which cannot use MonoBehaviour functionality.
+**Correct Answers**: Rotating a directional light, Changing the skybox material, Adjusting post-processing settings
+> **Explanation**: Day-night cycles typically involve rotating the sun/moon directional light, transitioning between day/night skyboxes, and adjusting post-processing for time-of-day effects. Physics timesteps and audio decay factors are unrelated to visual time-of-day systems.
 
 ### Question 25
-**Correct Answer**: To identify performance bottlenecks  
-> **Explanation**: A profiler in game development is a diagnostic tool that monitors and analyzes performance metrics like CPU usage, memory allocation, rendering time, and physics calculations. This helps developers identify bottlenecks causing performance issues and optimize the most problematic areas of the game.
+**Correct Answers**: Asset streaming, Asset bundling, Asynchronous loading
+> **Explanation**: Loading times are reduced by streaming assets as needed rather than all at once, bundling related assets to reduce file access operations, and loading asynchronously to prevent freezing the game. LOD systems improve runtime performance but don't directly affect load times. Just-in-time compilation can actually increase load times in some contexts.
