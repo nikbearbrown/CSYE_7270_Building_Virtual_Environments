@@ -1,7 +1,7 @@
 # HOLLOW KNIGHT
 ## Game Design Document
 
-![Hollow Knight](https://i.imgur.com/JYTkgZR.jpg)
+<img src="https://raw.githubusercontent.com/mayureshsatao/CSYE_7270_Building_Virtual_Environments/refs/heads/HOLLOW_KNIGHT_GDD/update_images/Assingments/logo.png" alt="Hollow Knight Logo" width="300">
 
 ## Table of Contents
 1. [Top-Level Design Description](#top-level-design-description)
